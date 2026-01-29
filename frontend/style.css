@@ -41,7 +41,7 @@ nav {
   font-weight: 600;
   box-shadow:
     0 8px 15px var(--shadow),
-    0 15px 35px rgba(30, 58, 138, 0.55);
+    0 15px 35px rgba(137, 144, 163, 0.55);
   transform: translateZ(30px);
   transition: all 0.3s ease;
 }
@@ -50,7 +50,7 @@ nav:hover {
   transform: translateZ(35px) scale(1.02);
   box-shadow:
     0 10px 20px rgba(0, 0, 0, 0.65),
-    0 20px 40px rgba(30, 58, 138, 0.55);
+    0 20px 40px rgba(162, 166, 176, 0.55);
 }
 
 /* NAV LINKS */
@@ -178,7 +178,7 @@ header .fa-search {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  color: #94a3b8;
+  color: #8b95a3;
 }
 
 /* ===============================
@@ -347,14 +347,14 @@ aside .search-btn {
   color: #fff;
   box-shadow:
     0 6px 0 var(--secondary),
-    0 14px 25px rgba(37, 99, 235, 0.35);
+    0 14px 25px rgba(131, 138, 154, 0.35);
 }
 
 aside .search-btn:hover {
   transform: translateY(-3px);
   box-shadow:
     0 4px 0 var(--secondary),
-    0 18px 30px rgba(37, 99, 235, 0.45);
+    0 18px 30px rgba(143, 152, 170, 0.45);
 }
 
 aside .search-btn:active {
