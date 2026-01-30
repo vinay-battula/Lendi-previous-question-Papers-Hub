@@ -622,7 +622,7 @@ const papers = [
     reg: "R23",
     year: "2024",
     type: "Supply",
-    link: "#",
+    link: "papers/vinay_resume.pdf",
   },
   {
     id: 42,
@@ -744,9 +744,10 @@ function displayPapers(list) {
         <p class="text-sm text-gray-600">${paper.branch} • ${paper.sem}</p>
         <p class="text-sm text-gray-500 mb-4">${paper.reg} • ${paper.year}</p>
 
-        <a href="${paper.link}" class="download-btn-3d">
+       <a href="${paper.link}" target="_blank" class="download-btn-3d">
           <i class="fa fa-download mr-2"></i> Download PDF
-        </a>
+         </a>
+
       </div>
     `;
   });
